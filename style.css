@@ -1,0 +1,51 @@
+body {
+    background: purple;
+    color: #fff;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    background: #000;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff; 
+}
+
+.brand {
+    text-align: center;
+}
+
+.wrapper {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+@media (min-width: 800px) {
+
+    nav {
+        background: #000;
+        display: flex;
+    }
+
+    a {
+        border-bottom: 0;
+        width: 25%;
+    }
+
+    a:hover {
+        border-bottom: 1px solid #fff; 
+    }
+
+    .wrapper {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
